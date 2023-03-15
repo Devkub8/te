@@ -1,9 +1,9 @@
 provider "aws" {
   //access_key = "AKIATGFR2GGECDMPZXPM"
  // secret_key = "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"
-  region     = "us-east-1"
+   region     = "us-east-1"
    assume_role {
-  role_arn = "arn:aws:iam::620477854554:role/jen-role"
+   role_arn = "arn:aws:iam::620477854554:role/jen-role"
   }
 }
  
